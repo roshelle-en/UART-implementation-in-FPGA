@@ -9,9 +9,22 @@ Designed and implemented a UART communication system in Verilog, developing and 
  device via UART. Successful transmission is demonstrated by physically linking the Tx and
  Rx pins between the two devices and observing correct data exchange in real time.
 
- We have used the below specifications to implement our UART system.
- • Baud rate of 115200 bps
- • Active low reset
- • 50 MHz default clock
- • No parity bit
- • 10 bits per frame( 1 start bit, 8 data bits and 1 stop bit)
+ 
+UART Specifications
+The communication protocol was implemented with the following specifications:
+
+Baud Rate: 115200 bps
+
+Reset: Active low
+
+Clock Frequency: 50 MHz
+
+Parity: None
+
+Frame Format: 10 bits
+
+       1 start bit
+
+       8 data bits
+
+       1 stop bit
